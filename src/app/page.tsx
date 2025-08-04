@@ -1,11 +1,11 @@
 "use client"
 
 import type { NextPage } from "next"
-
-import Header from "../components/blog_1/Header"
-import Footer from "../components/blog_1/Footer"
+import Header from "../components/Header"
+import Hero from "../components/Hero"
+import Footer from "../components/Footer"
 import BackgroundLoader from "../components/BackgroundLoader"
-import Hero from "../components/blog_1/Hero"
+
 
 
 // import {
@@ -87,17 +87,8 @@ const Page: NextPage = () => {
       
       <Header />
       <Hero />
-      {/* <RecentPost /> */}
       <Footer  />
-      {/* <Header />
-      <Hero background={background} social={social} />
-      <About about={about} />
-      <ServiceList services={services} />
-      <TestimonialList testimonials={testimonials} />
-      <ProductList products={products} />
-      <Contact contact={contact} />
-      <ContactForm />
-      <Footer social={social} /> */}
+
       <BackgroundLoader />
     </>
   )

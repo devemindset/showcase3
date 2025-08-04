@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import ProductList from "../../components/template_3/ProductList";
+import Header from "../../components/Header";
+import ProductList from "../../components/ProductList";
+import Footer from "../../components/Footer";
+
 
 
 const Page: NextPage = () => {

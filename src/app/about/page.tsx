@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import About from "../../components/template_3/About";
+import Header from "../../components/Header";
+import About from "../../components/About";
+import Footer from "../../components/Footer";
 
 const Page: NextPage = () => {
   return (
