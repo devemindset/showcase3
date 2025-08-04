@@ -22,7 +22,7 @@ const Header: FC = () => {
 
   return (
     <header className='fixed w-full h-10 sm:h-20 2xl:h-30 bg-[var(--bg-header)]/50 flex justify-between items-center px-5 sm:px-10 md:px-20 text-[var(--text-element)] z-10 top-0 md:h-14 '>
-      <div className='font-bold text-[var(--text-element)] 2xl:text-5xl text-xl sm:text-3xl'>Rose</div>
+      <div className='font-bold text-[var(--text-element)] 2xl:text-5xl text-xl sm:text-3xl'>Umami Flow</div>
 
       {/* Desktop Nav */}
       <nav className='hidden lg:flex space-x-2 2xl:text-2xl 2xl:space-x-4'>
